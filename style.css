@@ -1,44 +1,50 @@
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f9f9f9;
-    color: #333;
-    line-height: 1.6;
+    margin: 0;
+    padding: 0;
 }
 
-h1 {
+.main-header {
+    background-color: #e3f2fd;
+    padding: 10px;
+}
+
+.title {
     font-size: 2.5em;
-    margin: 0;
     color: #2c3e50;
 }
 
-h2 {
-    border-bottom: 2px solid #2980b9;
-    padding-bottom: 5px;
-    color: #34495e
-}
-
-section {
-    transition: transform 0.3s, box-shadow 0.3s;
+.info-section {
     background: #fff;
     border-radius: 8px;
     padding: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-section:hover {
+.info-section:hover {
     transform: scale(1.02);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
-ul {
+.section-title {
+    border-bottom: 2px solid #2980b9;
+    padding-bottom: 5px;
+    color: #34495e;
+}
+
+.description {
+    margin: 10px 0;
+}
+
+.interests-list,
+.projects-list {
     list-style-type: square;
     padding-left: 20px;
     color: #555;
 }
 
-footer {
+.footer {
+    text-align: center;
     margin-top: 20px;
     font-size: 0.9em;
     color: #777;
-    text-align: center;
 }
